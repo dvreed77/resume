@@ -15,5 +15,5 @@ I wanted a way to separate my style and format from my content, make way for Jin
 
 A live example is [here][1]
 
-[1]: test.dvreed.com/resume
+[1]: http://test.dvreed.com/resume
 
