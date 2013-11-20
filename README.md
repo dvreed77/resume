@@ -6,5 +6,8 @@ Then, as life goes on, you do more stuff.  You try to add a bullet, but the enti
 
 I wanted a way to separate my style and format from my content, make way for Jinja templateing with HTML.  I simply put all my data in JSON files, and parse that data to the HTML.
 
+## To use
 
+1. Update the JSON files to match your resume
+2. ```python run.py```
 
