@@ -1,0 +1,171 @@
+@page {
+	size:8.5in 11in; 
+	/*margin:.5in .5in .5in .5in; */
+	margin:0.8in 0.6in; 
+	mso-header-margin:.5in; 
+	mso-footer-margin:.5in; 
+	mso-paper-source:0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+	print-color-adjust: exact;
+
+}
+
+body {
+	font-size:10.5pt;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.name {
+	font-size: 4em;
+	font-weight: 500;
+	line-height: 0.6em;
+}
+.row:after {
+	clear: both;
+}
+
+.row:before, .row:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.address, .phone{
+	width: 15%;
+	margin-right: 25px;
+	font-size: .8em;
+	font-weight: 200;
+}
+
+.address {
+	text-align: right;
+}
+
+.section-title {
+	float: left;
+	text-align: right;
+	/*display: inline-block;*/
+	width: 15%;
+	font-weight: 500;
+	color: #888;
+	margin-right: 10px;
+	/*height: 100px;*/
+	
+}
+
+.city, .dates {
+	color: #aaa;
+	font-weight: 200;
+	/*font-size: 0.9em;*/
+}
+
+.city {
+	vertical-align:text-bottom;
+	padding-top: 4px;
+}
+
+.dates {
+	margin-top: -2px;
+}
+
+.header {
+	margin-bottom: 25px;
+}
+
+.section-content {
+	display: inline-block;
+	padding-left: 10px;
+	width: 80%;
+	margin-bottom: 20px;
+	border-left: 2px solid #ccc;
+}
+
+.place {
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+ul {
+	list-style-type:circle;
+	padding-left: 20px;
+	margin: 8px 0;
+	/*display: inline-block;*/
+}
+
+@media only screen and (min-device-width: 480px) {
+    body {
+    	background-color:#666;
+
+    }
+    .page {
+		background-color:white;
+		width:7in;
+		height:9in; /* IDK why the size is 9.5in instead of 10 */
+		padding:.5in;
+		margin:30px auto;
+		box-shadow:0 0 100px #222, 0 0 10px #ffd;
+	}
+}
+
+/*li {
+	padding:0;
+	margin:0;
+}*/
+
+/*@media only screen and (max-device-width: 480px) {
+	body {
+		font-size:13pt;
+	}
+	.page, #resume {
+		height:auto;
+		width:auto;
+	}
+
+}*/
+/*@media only screen and (max-device-width: 480px) and  (orientation: landscape) {
+	body {
+		font-size:9pt;
+	}
+}*/
+.italic {
+	font-style:italic;
+}
+
+.thin {
+	font-weight: 200;
+}
+
+.sub-title {
+	font-size: 0.9em;
+}
+
+@media print {
+	#resume {
+		/*-webkit-box-sizing: border-box;  Safari/Chrome, other WebKit */
+		/*-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		/*box-sizing: border-box;         /* Opera/IE 8+ */
+		height:9.3in;
+		/*margin-bottom:-10pt;*/
+	}
+
+	#page {
+		margin: 0.5in;
+		padding: 0.5in;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+}

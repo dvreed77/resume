@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{general.name}}</title>
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="page">
+		<div class="row header">
+			<span class="name pull-right">{{general.name}}</span>
+			<div class="address pull-left">{{general.address}}</div>
+			<div class="phone pull-left">{{general.phone}}<br>{{general.email}}<br>{{general.web}}</div>
+		</div>
+		<div class="section row">
+			<div class="section-title">Experience</div>
+			<div class="section-content">
+				{% for exp in experience %}
+			  <div class="section-item">
+					<div class="city pull-right">{{ exp.city }}</div>
+					<div class="place">{{ exp.place }}</div>
+					<div class="dates pull-right">{{ exp.dates }}</div>
+					<div class="sub-title thin">{{ exp.title }}</div>
+					<ul>
+						{% for d in exp.details %}
+					  <li>{{ d }}</li>
+						{% endfor %}
+					</ul>			
+				</div>
+				{% endfor %}
+			</div>	
+		</div>
+		<div class="section row">
+			<div class="section-title">Education</div>
+			<div class="section-content">
+				{% for edu in education %}
+			  <div class="section-item">
+					<div class="city pull-right">{{ edu.city }}</div>
+					<div class="place">{{ edu.university }}</div>
+					<div class="dates pull-right">{{ edu.dates }}</div>
+					<div class="sub-title thin">{{ edu.degree }}</div>
+					<ul>
+						{% for d in edu.details %}
+					  <li>{{ d }}</li>
+						{% endfor %}
+					</ul>			
+				</div>
+				{% endfor %}
+			</div>	
+		</div>
+		<div class="section row">
+			<div class="section-title">Technical Skills</div>
+			<div class="section-content">
+				{% for skill in skills %}
+			  <div>{{ skill }}</div>
+				{% endfor %}
+			</div>	
+		</div>		
+	</div>
+</body>
+</html>

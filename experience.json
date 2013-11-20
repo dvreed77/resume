@@ -1,0 +1,37 @@
+[
+{
+	"place": "Draper Laboratory",
+	"city": "Cambridge, MA",
+	"dates": "August 2012 - Present",
+	"title": "Algorithm/Visualization Developer",
+	"details": [
+		"Lead developer for multi-Intelligence visualization and collaboration project, developing both front-end visualization in d3.js and back-end BigData analytics in Hadoop and Dumbo.",
+		"Developed and integrated computer vision algorithms and simulations to create a cultural model from full-motion video to augment anomaly detection.",
+		"Team developer for DARPA XDATA program. Work includes the integration of logging utilities into other XDATA performers tools for objective quantitative assessment of tool performance and the creation of front-end visualization to assist analyst with logging performance.",
+		"Developed algorithms for an improved polygraph.",
+		"Developer for quantifying human interaction from audio streams."
+	]
+},
+{
+	"place": "Northeastern University",
+	"city": "Boston, MA",
+	"dates": "2010 - 2012",
+	"title": "Research assistant in Laboratory for Underwater Acoustics and Remote Sensing",
+	"details": [
+		"Designed a sophisticated cross-language system in Java, MySQL, and Matlab to aid in multi-user data acquisition and data analysis significantly reducing overhead required in the analysis of more then 4 terabytes of acoustic data."
+	]
+},
+{
+	"place": "United States Navy",
+	"city": "Pearl Harbor, HI",
+	"dates": "2000 - 2006",
+	"title": "Communications Technician &bull; USS O'Kane (DDG 77)",
+	"details": [
+		"Maintained over one hundred various communication systems and fabricated various adhoc systems, including those onboard Chilean warship while stationed aboard as leading support technician."
+	]
+}
+]
+
+
+
+

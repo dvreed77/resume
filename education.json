@@ -1,0 +1,22 @@
+[
+{
+	"university": "Northeastern University",
+	"city": "Boston, MA",
+	"dates": "2010 - 2012",
+	"degree": "Masters of Electrical Engineering &bull; GPA 3.6",
+	"details": [
+		"Relevant coursework: Pattern Recognition, Modern Signal Processing, Acoustics and Remote Sensing, Electromagnetics, Stochastic Processes."
+	]
+},
+{
+	"university": "Northeastern University",
+	"city": "Boston, MA",
+	"dates": "2006 - 2010",
+	"degree": "Bachelors of Electrical Engineering &bull; GPA 3.9",
+	"details": [
+		"Recipient of Sears B. Condit Award, given to top 100 students by GPA out of 3,000 person senior class",
+		"Recipient of Roland Guyer Porter Award, given annually to undergraduates whom promote education and service throughout university",
+		"Former President, Northeastern Chapter of Eta Kappa Nu; leading electrical engineering honor society."
+	]
+}
+]
