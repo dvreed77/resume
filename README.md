@@ -11,3 +11,9 @@ I wanted a way to separate my style and format from my content, make way for Jin
 1. Update the JSON files to match your resume
 2. ```python run.py```
 
+## Demo
+
+A live example is [here][1]
+
+[1]: test.dvreed.com/resume
+
