@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge'><![endif]-->  <!--disables compatibility mode in IE-->
+
+    <title>David Reed</title>
+    <!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <style>
+	    @page {
+				size:8.5in 11in; 
+				/*margin:.5in .5in .5in .5in; */
+				margin:0.8in 0.6in; 
+				mso-header-margin:.5in; 
+				mso-footer-margin:.5in; 
+				mso-paper-source:0;
+			}
+			* {
+				-webkit-print-color-adjust: exact;
+				print-color-adjust: exact;
+
+			}
+			body {
+				font-size:10.5pt;
+				font-family: "Helvetica Neue", Helvetica, sans-serif;
+			}
+			
+			.pull-left {
+				float: left;
+			}
+
+			.pull-right {
+				float: right;
+			}
+
+			.name {
+				font-size: 4em;
+				font-weight: 500;
+				line-height: 0.6em;
+			}
+			.row:after {
+				clear: both;
+			}
+
+			.row:before, .row:after {
+				display: table;
+				line-height: 0;
+				content: "";
+			}
+
+			.address, .phone{
+				width: 15%;
+				margin-right: 25px;
+				font-size: .8em;
+				font-weight: 200;
+			}
+
+			.address {
+				text-align: right;
+			}
+
+			.section-title {
+				float: left;
+				text-align: right;
+				/*display: inline-block;*/
+				width: 15%;
+				font-weight: 500;
+				color: #888;
+				margin-right: 10px;
+				/*height: 100px;*/
+				
+			}
+
+			.city, .dates {
+				color: #aaa;
+				font-weight: 200;
+				/*font-size: 0.9em;*/
+			}
+
+			.city {
+				vertical-align:text-bottom;
+				padding-top: 4px;
+			}
+
+			.dates {
+				margin-top: -2px;
+			}
+
+			.header {
+				margin-bottom: 25px;
+			}
+
+			.section-content {
+				display: inline-block;
+				padding-left: 10px;
+				width: 80%;
+				margin-bottom: 20px;
+				border-left: 2px solid #ccc;
+			}
+
+			.place {
+				font-weight: 600;
+				font-size: 1.2em;
+			}
+
+			ul {
+				list-style-type:circle;
+				padding-left: 20px;
+				margin: 8px 0;
+				/*display: inline-block;*/
+			}
+
+			@media only screen and (min-device-width: 480px) {
+			    body {
+			    	background-color:#666;
+
+			    }
+			    .page {
+					background-color:white;
+					width:7in;
+					height:9in; /* IDK why the size is 9.5in instead of 10 */
+					padding:.5in;
+					margin:30px auto;
+					box-shadow:0 0 100px #222, 0 0 10px #ffd;
+				}
+			}
+
+			/*li {
+				padding:0;
+				margin:0;
+			}*/
+
+			/*@media only screen and (max-device-width: 480px) {
+				body {
+					font-size:13pt;
+				}
+				.page, #resume {
+					height:auto;
+					width:auto;
+				}
+
+			}*/
+			/*@media only screen and (max-device-width: 480px) and  (orientation: landscape) {
+				body {
+					font-size:9pt;
+				}
+			}*/
+			.italic {
+				font-style:italic;
+			}
+
+			.thin {
+				font-weight: 200;
+			}
+
+			.sub-title {
+				font-size: 0.9em;
+			}
+
+			@media print {
+				#resume {
+					/*-webkit-box-sizing: border-box;  Safari/Chrome, other WebKit */
+					/*-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+					/*box-sizing: border-box;         /* Opera/IE 8+ */
+					height:9.3in;
+					/*margin-bottom:-10pt;*/
+				}
+
+				#page {
+					margin: 0.5in;
+					padding: 0.5in;
+				}
+
+				body {
+					margin: 0;
+					padding: 0;
+				}
+
+			}
+    </style>
+</head>
+
+<body>
+	<div class="page">
+		<div class="row header">
+			<span class="name pull-right">David Reed</span>
+			<div class="address pull-left">3 Worcester Sq.<br>Apt 4<br>Boston, MA 02118</div>
+			<div class="phone pull-left">857-891-1133<br>david.reed.c@gmail.com<br>dvreed.com</div>
+		</div>
+		<div class="section row">
+			<div class="section-title">Experience</div>
+			<div class="section-content">
+				<div class="section-item">
+					<div class="city pull-right">Cambridge, MA</div>
+					<div class="place">Draper Laboratory</div>
+					<div class="dates pull-right">August 2012 - Present</div>
+					<div class="sub-title thin">Algorithm/Visualization Developer</div>
+					<ul>
+						<li>
+							Lead developer for multi-Intelligence visualization and collaboration project, developing both front-end visualization in d3.js and back-end BigData analytics in Hadoop and Dumbo.
+						</li>
+						<li>
+							Developed and integrated computer vision algorithms and simulations to create a cultural model from full-motion video to augment anomaly detection.
+						</li>
+						<li>
+							Team developer for DARPA XDATA program. Work includes the integration of logging utilities into other XDATA performers tools for objective quantitative assessment of tool performance and the creation of front-end visualization to assist analyst with logging performance.
+						</li>
+						<li>
+							Developed algorithms for an improved polygraph.
+						</li>
+						<li>
+							Developer for quantifying human interaction from audio streams.
+						</li>
+					</ul>			
+				</div>
+				<div class="section-item">
+					<div class="city pull-right">Boston, MA</div>
+					<div class="place">Northeastern University</div>
+					<div class="dates pull-right">2010 - 2012</div>
+					<div class="sub-title thin">Research assistant in Laboratory for Underwater Acoustics and Remote Sensing</div>
+					<ul>
+						<li>
+							Designed a sophisticated cross-language system in Java, MySQL, and Matlab to aid in multi-user data acquisition and data analysis significantly reducing overhead required in the analysis of more then 4 terabytes of acoustic data.
+						</li>						
+					</ul>					
+				</div>
+				<div class="section-item">
+					<div class="city pull-right">Pearl Harbor, HI</div>
+					<div class="place">United States Navy</div>
+					<div class="dates pull-right">2000 - 2006</div>
+					<div class="sub-title thin">Communications Technician &bull; USS O'Kane (DDG 77)</div>
+					<ul>
+						<li>
+							Maintained over one hundred various communication systems and fabricated various adhoc systems, including those onboard Chilean warship while stationed aboard as leading support technician.
+						</li>
+					</ul>			
+				</div>	
+			</div>	
+		</div>
+		<div class="section row">
+			<div class="section-title">Education</div>
+			<div class="section-content">
+				<div class="section-item">
+					<div class="city pull-right">Boston, MA</div>
+					<div class="place">Northeastern University</div>
+					<div class="dates pull-right">2010 - 2012</div>
+					<div class="sub-title thin">Masters of Electrical Engineering &bull; GPA 3.6</div>
+					<ul>
+						<li>
+							Relevant coursework: Pattern Recognition, Modern Signal Processing, Acoustics and Remote Sensing, Electromagnetics, Stochastic Processes.
+						</li>
+					</ul>
+				</div>
+				<div class="section-item">
+					<div class="city pull-right">Boston, MA</div>
+					<div class="place">Northeastern University</div>
+					<div class="dates pull-right">2006 - 2010</div>
+					<div class="sub-title thin">Bachelors of Electrical Engineering &bull; GPA 3.9</div>
+					<ul>
+						<li>Recipient of Sears B. Condit Award, given to top 100 students by GPA out of 3,000 person senior class</li>
+						<li>Recipient of Roland Guyer Porter Award, given annually to undergraduates whom promote education and service throughout university</li>
+						<li>Former President, Northeastern Chapter of Eta Kappa Nu; leading electrical engineering honor society.</li>
+					</ul>
+				</div>		
+			</div>	
+		</div>
+		<div class="section row">
+			<div class="section-title">Technical Skills</div>
+			<div class="section-content">
+				<div>Languages: Python, Matlab, Javascript, HTML/CSS, C++</div>
+				<div>Applications: Matlab, Adobe Creative Suite</div>
+			</div>	
+		</div>		
+	</div>
+</body>
+</html>
